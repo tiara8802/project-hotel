@@ -14,4 +14,4 @@
     <h1>Halaman About WPU</h1>
     <h3>Owner: {{ $nama }}</h3>
 </body>
-</html>
+</html> 
