@@ -7,14 +7,21 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
+<<<<<<< HEAD
      * Run the migrations.p
+=======
+     * Run the migrations.
+>>>>>>> a0db5e8479135862aa3026a19195aa0d0f9aa96e
      */
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+<<<<<<< HEAD
             $table->string('level');
+=======
+>>>>>>> a0db5e8479135862aa3026a19195aa0d0f9aa96e
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
